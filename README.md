@@ -1,5 +1,6 @@
 # P4GPS_ModelEditor
 Modifies values in P4G's ps_model.bin file, found in facility/cmbroot.arc.  
+![](https://i.imgur.com/MCyiser.png)  
 Values you can change for both Fusion and Compendium are:
 - Right Offset
 - Bottom Offset
@@ -18,7 +19,8 @@ Since it's hard to know what values to use without visual aid, you can use [Chea
 2. Press L to view the mythology info, which will load the model.
 3. Choose Open Process and pick the window P4G is running in.
 4. Choose "Add Address Manually".
-5. Using Windows Calculator in Programmer Mode, get the address, add the record and enable it. You should see changes immediately.
+5. Using Windows Calculator in Programmer Mode, get the address, add the record and enable it. You should see changes immediately.  
+![](https://i.imgur.com/PvrJQNv.png)  
 ## Compendium Records
 1. Right Offset: 4DB83630 + (your persona ID * 32) | Type: 2 Bytes | Value: -32,768 to 32,767
 2. Bottom Offset: 4DB83632 + (your persona ID * 32) | Type: 2 Bytes | Value: -32,768 to 32,767
