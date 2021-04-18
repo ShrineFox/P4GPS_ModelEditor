@@ -21,6 +21,8 @@ Since it's hard to know what values to use without visual aid, you can use [Chea
 4. Choose "Add Address Manually".
 5. Using Windows Calculator in Programmer Mode, get the address, add the record and enable it. You should see changes immediately.  
 ![](https://i.imgur.com/PvrJQNv.png)  
+## Finding Addresses
+These change from time to time, so here's [a tutorial video](https://www.youtube.com/watch?v=H_YEB8efylQ) on finding them. Below is an example.
 ## Compendium Records
 1. Right Offset: 4DB83630 + (your persona ID * 32) | Type: 2 Bytes | Value: -32,768 to 32,767
 2. Bottom Offset: 4DB83632 + (your persona ID * 32) | Type: 2 Bytes | Value: -32,768 to 32,767
